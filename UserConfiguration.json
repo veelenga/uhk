@@ -7,10 +7,10 @@
   "iconsAndLayerTextsBrightness": 255,
   "alphanumericSegmentsBrightness": 127,
   "keyBacklightBrightness": 128,
-  "mouseMoveInitialSpeed": 4,
+  "mouseMoveInitialSpeed": 16,
   "mouseMoveAcceleration": 68,
   "mouseMoveDeceleratedSpeed": 8,
-  "mouseMoveBaseSpeed": 48,
+  "mouseMoveBaseSpeed": 52,
   "mouseMoveAcceleratedSpeed": 64,
   "mouseScrollInitialSpeed": 20,
   "mouseScrollAcceleration": 20,
@@ -4683,9 +4683,21 @@
                 null,
                 null,
                 null,
-                null,
-                null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "media",
+                  "scancode": 182
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "media",
+                  "scancode": 205
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "media",
+                  "scancode": 181
+                },
                 null,
                 null,
                 null,
@@ -4785,9 +4797,21 @@
                 },
                 null,
                 null,
-                null,
-                null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "media",
+                  "scancode": 234
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "media",
+                  "scancode": 226
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "media",
+                  "scancode": 233
+                },
                 null,
                 null,
                 null,
@@ -4855,7 +4879,10 @@
                   "keyActionType": "mouse",
                   "mouseAction": "scrollLeft"
                 },
-                null,
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "moveUp"
+                },
                 {
                   "keyActionType": "mouse",
                   "mouseAction": "scrollRight"
@@ -4908,7 +4935,7 @@
                 },
                 {
                   "keyActionType": "mouse",
-                  "mouseAction": "rightClick"
+                  "mouseAction": "accelerate"
                 },
                 null,
                 {
