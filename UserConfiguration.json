@@ -7,14 +7,14 @@
   "iconsAndLayerTextsBrightness": 255,
   "alphanumericSegmentsBrightness": 127,
   "keyBacklightBrightness": 128,
-  "mouseMoveInitialSpeed": 16,
+  "mouseMoveInitialSpeed": 4,
   "mouseMoveAcceleration": 68,
   "mouseMoveDeceleratedSpeed": 8,
-  "mouseMoveBaseSpeed": 52,
-  "mouseMoveAcceleratedSpeed": 64,
+  "mouseMoveBaseSpeed": 40,
+  "mouseMoveAcceleratedSpeed": 81,
   "mouseScrollInitialSpeed": 20,
   "mouseScrollAcceleration": 20,
-  "mouseScrollDeceleratedSpeed": 20,
+  "mouseScrollDeceleratedSpeed": 10,
   "mouseScrollBaseSpeed": 20,
   "mouseScrollAcceleratedSpeed": 50,
   "moduleConfigurations": [],
@@ -4676,9 +4676,21 @@
             {
               "id": 0,
               "keyActions": [
-                null,
-                null,
-                null,
+                {
+                  "keyActionType": "keystroke",
+                  "type": "media",
+                  "scancode": 226
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "media",
+                  "scancode": 234
+                },
+                {
+                  "keyActionType": "keystroke",
+                  "type": "media",
+                  "scancode": 233
+                },
                 null,
                 null,
                 null,
@@ -4797,21 +4809,9 @@
                 },
                 null,
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "media",
-                  "scancode": 234
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "media",
-                  "scancode": 226
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "media",
-                  "scancode": 233
-                },
+                null,
+                null,
+                null,
                 null,
                 null,
                 null,
@@ -4877,7 +4877,7 @@
                 null,
                 {
                   "keyActionType": "mouse",
-                  "mouseAction": "scrollLeft"
+                  "mouseAction": "scrollRight"
                 },
                 {
                   "keyActionType": "mouse",
@@ -4885,7 +4885,7 @@
                 },
                 {
                   "keyActionType": "mouse",
-                  "mouseAction": "scrollRight"
+                  "mouseAction": "scrollLeft"
                 },
                 null,
                 null,
@@ -4928,15 +4928,8 @@
                   "modifierMask": 32
                 },
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 44
-                },
-                {
-                  "keyActionType": "mouse",
-                  "mouseAction": "accelerate"
-                },
+                null,
+                null,
                 null,
                 {
                   "keyActionType": "keystroke",
@@ -5000,7 +4993,10 @@
                 null,
                 null,
                 null,
-                null,
+                {
+                  "keyActionType": "mouse",
+                  "mouseAction": "moveDown"
+                },
                 null,
                 null,
                 {
@@ -5028,9 +5024,8 @@
                   "mouseAction": "decelerate"
                 },
                 {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 44
+                  "keyActionType": "mouse",
+                  "mouseAction": "accelerate"
                 },
                 null
               ]
